@@ -302,6 +302,12 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     android.hardware.power@2.0.vendor
 
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
+    $(LOCAL_PATH)/configs/perf/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
+    $(LOCAL_PATH)/configs/perf/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
+
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 

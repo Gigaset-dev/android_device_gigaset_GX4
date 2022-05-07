@@ -1489,9 +1489,6 @@ vendor/etc/init/init.fpsgo.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/nnapi_powerhal.json
-vendor/etc/power_app_cfg.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/task_profiles.json
 vendor/etc/xgf.cfg
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
