@@ -233,7 +233,7 @@ persist.vendor.mdlog.flush_log_ratio=72340194296137244
 init.userspace_reboot.is_supported=true
 
 # SurfaceFlinger
-debug.renderengine.backend=skiagl
+debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_backpressure=1
 debug.sf.early.app.duration=20000000
 debug.sf.early.sf.duration=27600000
