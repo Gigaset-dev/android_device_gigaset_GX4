@@ -49,6 +49,14 @@ while [ "${#}" -gt 0 ]; do
     shift
 done
 
+function blob_fixup {
+    case "$1" in
+        vendor/lib64/libwifi-hal-mtk.so)
+            "${PATCHELF}" --set-soname "libwifi-hal-mtk.so" "${2}"
+            ;;
+    esac
+}
+
 if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
