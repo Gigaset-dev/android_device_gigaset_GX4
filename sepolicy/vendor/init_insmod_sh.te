@@ -1,0 +1,3 @@
+allow init_insmod_sh kernel:process setsched;
+allow init_insmod_sh proc_cmdline:file { getattr open read };
+allow init_insmod_sh self:capability sys_nice;
