@@ -308,6 +308,7 @@ PRODUCT_PACKAGES += \
     init.mt6789.usb.rc \
     init.mtkgki.rc \
     init.project.rc \
+    init.recovery.mt6789.rc \
     init.sensor_2_0.rc \
     init.stnfc.rc \
     ueventd.mtk.rc
