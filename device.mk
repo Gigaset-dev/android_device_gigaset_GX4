@@ -302,6 +302,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     android.hardware.power@2.0.vendor
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
