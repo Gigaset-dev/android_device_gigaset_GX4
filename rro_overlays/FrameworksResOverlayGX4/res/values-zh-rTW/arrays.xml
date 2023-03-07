@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>sunwave</item>
+        <item>等待錄入手指</item>
+        <item>手指按下</item>
+        <item>手指抬起</item>
+        <item>超時</item>
+        <item>手指重複，請換手指</item>
+        <item>區域重複，請移動手指</item>
+    </string-array>
+</resources>

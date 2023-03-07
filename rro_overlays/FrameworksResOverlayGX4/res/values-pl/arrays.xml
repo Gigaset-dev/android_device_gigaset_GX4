@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>sunwave</item>
+        <item>dotknij palcem</item>
+        <item>W dół</item>
+        <item>W górę</item>
+        <item>Upłynął czas</item>
+        <item>Duplikat palca</item>
+        <item>Powielony obszar</item>
+    </string-array>
+</resources>

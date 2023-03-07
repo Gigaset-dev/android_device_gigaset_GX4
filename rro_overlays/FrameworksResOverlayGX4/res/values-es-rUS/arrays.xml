@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>sunwave</item>
+        <item>Toque el sensor</item>
+        <item>Presione el dedo</item>
+        <item>Levantar dedo</item>
+        <item>Tiempo de espera</item>
+        <item>Dedo duplicado</item>
+        <item>Área duplicada</item>
+    </string-array>
+</resources>

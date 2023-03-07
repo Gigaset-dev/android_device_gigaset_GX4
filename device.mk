@@ -276,6 +276,22 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayGX4 \
+    SystemUIOverlayGX4 \
+    TelephonyOverlayGX4 \
+    TetheringResOverlay \
+    WifiResOverlay
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>sunwave</item>
+        <item>손가락 지문센서 터치 대기</item>
+        <item>손가락 누름</item>
+        <item>손가락 들기</item>
+        <item>시간 초과</item>
+        <item>손가락이 반복됨, 손가락을 바꾸십시오.</item>
+        <item>위치가 반복됨,손가락을 이동하여 주십시오.</item>
+    </string-array>
+</resources>

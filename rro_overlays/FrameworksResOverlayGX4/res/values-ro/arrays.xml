@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>sunwave</item>
+        <item>așteptare atingere deget</item>
+        <item>jos</item>
+        <item>sus</item>
+        <item>pauză</item>
+        <item>Deget duplicat</item>
+        <item>Zonă duplicată</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>Yoğun gün ışığı</item>
+        <item>Sensöre dokunun.</item>
+        <item>Parmağınızı okutun.</item>
+        <item>Parmağınızı kaldırın.</item>
+        <item>Zaman aşımı</item>
+        <item>Bu parmak tanımlı. Farklı parmağınızı kullanın.</item>
+        <item>Bu bölge tanımlı. Farklı noktadan dokunuşu tekrarlayın.</item>
+    </string-array>
+</resources>

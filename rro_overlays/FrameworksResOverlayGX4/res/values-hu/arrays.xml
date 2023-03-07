@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fingerprint_acquired_vendor">
+        <item>sunwave</item>
+        <item>várakozás az érintésre</item>
+        <item>le</item>
+        <item>fel</item>
+        <item>időtúllépés</item>
+        <item>Második ujj</item>
+        <item>Ismétlődő terület</item>
+    </string-array>
+</resources>
