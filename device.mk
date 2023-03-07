@@ -234,6 +234,10 @@ PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
     libkeystore-engine-wifi-hidl
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.GX4
+
 # Media
 PRODUCT_PACKAGES += \
     libcodec2_hidl@1.2.vendor \
