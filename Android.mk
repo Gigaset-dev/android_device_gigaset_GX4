@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter GX4, $(TARGET_DEVICE)),)
+ifneq ($(filter vidofnir GX4, $(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 VENDOR_SYMLINKS := \
