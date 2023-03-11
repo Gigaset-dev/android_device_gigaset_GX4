@@ -5,9 +5,11 @@
  */
 
 #include <libinit_dalvik_heap.h>
+#include <libinit_utils.h>
 
 #include "vendor_init.h"
 
 void vendor_load_properties() {
     set_dalvik_heap();
+    set_ro_build_prop("device", "GX4", true);
 }
